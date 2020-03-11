@@ -56,7 +56,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:760px;
   margin:0 auto;
 }
 
@@ -171,9 +171,11 @@ header ul a strong {
 }
 
 section {
-  width:550px;
+  width:450px;
   float:right;
   padding-bottom:50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 small {
@@ -194,6 +196,7 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
 
 @media print, screen and (max-width: 960px) {
 
